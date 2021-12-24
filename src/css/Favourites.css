@@ -1,0 +1,30 @@
+.Favourites {
+  margin: 2rem 0;  
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+h3.Favourites-title {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 2rem;
+  border-radius:  3px;
+  border: 1px solid rgba(41, 163, 163, 0.6);
+  width: 30rem;
+  text-align: center;
+}
+
+.Favourites-title {
+  margin: auto;
+  color: rgb(51, 51, 51);
+}
+
+.Favourites-button-container {
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Favourites-btn {
+  animation: fadeInUp .4s;
+}

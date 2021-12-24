@@ -1,0 +1,31 @@
+{
+  "name": "simplest-weather-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "7.0.13",
+    "node": "14.17.4"
+  },
+  "dependencies": {
+    "jest-cli": "^22.4.2",
+    "normalize.css": "^8.0.0",
+    "npm": "^5.7.1",
+    "npm-check-updates": "^12.0.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "semantic-ui-react": "^0.78.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "jest": "^27.4.5",
+    "jest-localstorage-mock": "^2.4.18"
+  }
+}

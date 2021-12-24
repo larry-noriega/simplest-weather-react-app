@@ -1,0 +1,65 @@
+.WeatherBoards,
+.WeatherRight-board,
+.WeatherRight-board > div {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2em;
+}
+
+.WeatherRight-board > div {
+  display: grid;
+  grid-template-columns: 8rem 6rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.WeatherBoards {
+  grid-template-columns: 20rem auto;  
+  padding: 10px;
+  margin: auto;
+}
+
+.WeatherRight-board {
+  width: 45rem;
+}
+
+.WeatherLeft-board,
+.WeatherRight-board {
+  border: 1px solid #28a2a2;
+  box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  animation: horizontalFlipIn 1s;
+  border-radius: 3px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.WeatherCard-icon-container {
+  font-size: 4.5rem;
+  margin: 2rem 0 0;
+}
+
+.WeatherCard-icon {
+  margin: 0 0 2rem;
+}
+
+.WeatherCard-degrees {
+  font-size: 6rem;
+  margin: 0;
+}
+
+.WeatherBoards .ui.positive.button {
+  background-color: #28a2a2;
+}
+
+.WeatherCard-detail {
+  border-bottom: 1px dotted grey;
+  padding: 10px;
+  width: 20rem;
+}
+.WeatherCard-detail > div > p {
+  font-size: 1.4rem;
+}

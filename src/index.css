@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: url(https://unsplash.imgix.net/photo-1413920346627-a4389f0abd61?q=75&fm=jpg&s=cfd43f65c77577abb3bf29c0d6a0775f) fixed center center/cover #353535;
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+p, li {
+  font-size: 1rem;
+}
+
+/* h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+} */
